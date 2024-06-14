@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    } 
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+body{
+    font-family: tahoma;
+    
+}
+.hero{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    
+}
+.hero h1{
+    color: #1e458a;
+    font-weight: bold;
+    line-height: 50Px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 40px;
+}
+.hero p{
+    line-height: 30Px;
+    padding: 20px;
+    text-align: left;
+    font-size: 25px;
+}
+
+header{
+    background-image: url(images/Hero.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 3px solid #e67e22;
+    background-repeat: no-repeat;
+}
+.main-nav{
+    list-style: none;
+    float: right;
+    margin-top: 60px;
+        
+}
+.main-nav li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 25px;
+     }
+.main-nav li a{
+    color: #e67e22;
+    text-decoration: none;
+    font-size: 160%;
+    font-weight: bold;
+}
+.main-nav li a:hover{
+    color:#1e458a;
+    border-bottom:2px solid #e67e22;
+    transform: all 0.5 ease-in;
+    padding: 10px 0;
+    
+}
+.logo img{
+    height: 100px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    }
+.button-awesome{
+    margin-top: 50px;
+}
+.btn{
+    border: 2px solid #e67e22;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-right: 20px;
+    background: #e67e22;
+    font-size: 21px;
+}
+
+.intro{
+    padding: 20px;
+    margin-left: 20px;
+}
+.intro h2{
+    padding: 20px;
+    color: #e67e22;
+    
+}
+.product1 {
+    padding: 15px;
+    box-shadow: rgb(red, green, blue);
+}  
+.product1 h2{
+    color: #e67e22;
+    padding-top: 20px;
+}  
+
+.product1 img{
+    width: 400px;
+    
+}
+
+.product1 p{
+ text-align: left;
+ padding-top: 10px;
+
+}
+.text-center{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 3%;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 20px;
+}
+.text-center h1{
+    color: #e67e22;
+    margin-bottom:5px;
+}
+.tab1{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+.container{
+    width: 100%;
+    background-color: cornsilk;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.copyright{
+    width: 100%;
+    background-color: #e67e22;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    padding-top: 15;
+    font-size: 22;
+}
+
+.footer{
+    background-color: cornsilk;
+    margin-top: 120px;
+    padding-top: 40px;
+    line-height: 60Px;
+    padding-bottom: 30px;
+    border-top: 1px solid #1e458a;
+}
+.footer h3{
+    color: #e67e22;
+    margin-bottom: 10px;
+    
+}
+.cover{
+    background-color: white;
+    height: 80vh;
+    margin-top: -550px;
+    border-top: 2px solid #1e458a;
+}
+
+.about-content{
+    margin-top: -650px;
+}
+
+.sign-up-form{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.4);
+    background: #fff;
+    padding: 20px;
+    margin-left: 35%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    text-align: center;
+    
+}
+.sign-up-form h1{
+    color: #e67e22;
+    margin-bottom: 30px;
+}
+.input-box{
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    border: 1px solid #999;
+    outline: none;
+    
+}
+.signup-btn{
+    color: #fff;
+    width: 80%;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    background-color: #e67e22;
+}
+ 
+.form1{
+margin-top: -750px;
+}
